@@ -1,0 +1,39 @@
+//这里重点记录一下对于git的基本操作
+
+克隆内容
+ git clone http://网上的地址
+ 
+ 查看文件状态
+ git status
+ 
+ 提交到本地缓存
+ git add ./ 
+ 
+ git commit -m '写提示信息'
+ 
+上传到网络（远程）
+git push origin master
+
+更新内容
+git pull origin master
+
+设置自己的邮箱
+git config 
+
+查看版本号 当前分支的信息
+git branch -v
+
+回退 如果提交前有误
+git reset 
+
+从远程下载文件到本地
+git checkout --文件名
+
+这个是彻底删除文件
+git rm 文件名
+
+切换分支
+git checkout 分支名
+
+创建分支同步到本地
+git pull 
